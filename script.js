@@ -14,7 +14,7 @@ $(document).ready(function () {
         $(rows[currentRow]).css("color", "red");
     });
 
-    $("#clearButton").click(function () {
+    $("#clearButton").on("click", function () {
         rows.css("color", "black");
         currentRow = -1;
     });
