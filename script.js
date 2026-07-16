@@ -2,7 +2,7 @@ $(document).ready(function () {
     let currentRow = -1;
 
     const rows = $("table tr:not(:first)");
-    $("#nextButton").click(function() {
+    $("#nextButton").on("click", function() {
         rows.css("color", "black");
 
         currentRow++;
