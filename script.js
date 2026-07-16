@@ -1,4 +1,4 @@
-$(document).ready(function () {
+$function () {
     let currentRow = -1;
 
     const rows = $("table tr:not(:first)");
